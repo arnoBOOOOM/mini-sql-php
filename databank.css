@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+.margin {
+  margin: 5%;
+}
+
+table {
+border-collapse: collapse;
+width: 60%;
+color: gray;
+font-family: monospace;
+font-size: 25px;
+font-weight: bold;
+}
+
+th {
+  background-color: orange;
+  color: white;
+}
+tr:nth-child(even) {background-color: black}
+
+h3 {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float : left;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
